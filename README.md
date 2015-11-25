@@ -130,12 +130,11 @@ Determine how are you going to solve the problem
 --------------------------------------------------------------------------------
 
 This is the “how” step, where you determine how you are going to solve the
-problem you came up with in step 1. It is also the step that is most neglected
-in software development. The crux of the issue is that there are many ways to
-solve a problem -- however, some of these solutions are good and some of them
-are bad. Too often, a programmer will get an idea, sit down, and immediately
-start coding a solution. This often generates a solution that falls into the bad
-category.
+problem you came up. It is also the step that is most neglected in software
+development. The crux of the issue is that there are many ways to solve a
+problem -- however, some of these solutions are good and some of them are bad.
+Too often, a programmer will get an idea, sit down, and immediately start coding
+a solution. This often generates a solution that falls into the bad category.
 
 Typically, good solutions have the following characteristics:
 
