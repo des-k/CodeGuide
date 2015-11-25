@@ -1,10 +1,12 @@
-#################################################
+////////////////////////////////////////////////////////////////////////////////
 
-                    CodeGuide
+                                    CodeGuide
                     
-################################################
+////////////////////////////////////////////////////////////////////////////////
 
-- Git Guide based on git docummentation
+--------------------------------------------------------------------------------
+
+                * Git Guide based on git docummentation *
 
 (0) Decide what to base your work on.
 
@@ -120,9 +122,9 @@ its behaviour.  Try to make sure your explanation can be understood
 without external resources. Instead of giving a URL to a mailing list
 archive, summarize the relevant points of the discussion.
 
--------------------------------------------------------------------------
+--------------------------------------------------------------------------------
 
-- Determine how are you going to solve the problem
+            * Determine how are you going to solve the problem *
 
 This is the “how” step, where you determine how you are going to solve the
 problem you came up with in step 1. It is also the step that is most neglected
@@ -152,3 +154,4 @@ to spend a little extra time up front before you start coding thinking about the
 best way to tackle a problem, what assumptions you are making, and how you might
 plan for the future, in order to save yourself a lot of time and trouble down
 the road.
+
