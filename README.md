@@ -126,7 +126,7 @@ source: https://github.com/git/git/blob/master/Documentation/SubmittingPatches
 
 --------------------------------------------------------------------------------
 
-Determine how are you going to solve the problem from learcpp.com
+Determine how are you going to solve the problem
 --------------------------------------------------------------------------------
 
 This is the “how” step, where you determine how you are going to solve the
