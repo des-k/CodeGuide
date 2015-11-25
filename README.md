@@ -1,10 +1,10 @@
---------------------------------------------------------------------------------
 
 Code Guide 
-
 --------------------------------------------------------------------------------
 
+--------------------------------------------------------------------------------
 Git Guide based on git docummentation
+--------------------------------------------------------------------------------
 
 (0) Decide what to base your work on.
 
@@ -123,9 +123,11 @@ without external resources. Instead of giving a URL to a mailing list
 archive, summarize the relevant points of the discussion.
 
 source: https://github.com/git/git/blob/master/Documentation/SubmittingPatches
+
 --------------------------------------------------------------------------------
 
 Determine how are you going to solve the problem from learcpp.com
+--------------------------------------------------------------------------------
 
 This is the “how” step, where you determine how you are going to solve the
 problem you came up with in step 1. It is also the step that is most neglected
