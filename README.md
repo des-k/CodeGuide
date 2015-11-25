@@ -71,7 +71,8 @@ feature does not trigger when it shouldn't.  Also make sure that the
 test suite passes after your commit.  Do not forget to update the
 documentation to describe the updated behaviour.
 
-Speaking of the documentation, it is currently use of US English norms for spelling and grammar, which is somewhat
+Speaking of the documentation, it is currently use of US English 
+norms for spelling and grammar, which is somewhat
 unfortunate.  A huge patch that touches the files all over the place
 only to correct the inconsistency is not welcome, though.  Potential
 clashes with other changes that can result from such a patch are not
@@ -97,21 +98,21 @@ should skip the full stop.  It is also conventional in most cases to
 prefix the first line with "area: " where the area is a filename or
 identifier for the general area of the code being modified, e.g.
 
-  . archive: ustar header checksum is computed unsigned
-  . git-cherry-pick.txt: clarify the use of revision range notation
+ - archive: ustar header checksum is computed unsigned
+ - git-cherry-pick.txt: clarify the use of revision range notation
 
 If in doubt which identifier to use, run "git log --no-merges" on the
 files you are modifying to see the current conventions.
 
 The body should provide a meaningful commit message, which:
 
-  . explains the problem the change tries to solve, iow, what is wrong
-    with the current code without the change.
+ - explains the problem the change tries to solve, iow, what is wrong with the
+   current code without the change.
 
-  . justifies the way the change solves the problem, iow, why the
-    result with the change is better.
+ - justifies the way the change solves the problem, iow, why the result with the
+   change is better.
 
-  . alternate solutions considered but discarded, if any.
+ - alternate solutions considered but discarded, if any.
 
 Describe your changes in imperative mood, e.g. "make xyzzy do frotz"
 instead of "[This patch] makes xyzzy do frotz" or "[I] changed xyzzy
@@ -133,12 +134,13 @@ start coding a solution. This often generates a solution that falls into the bad
 category.
 
 Typically, good solutions have the following characteristics:
-    - They are straightforward.
-    - They are well documented (especially any assumptions being made).
-    - They are built modularly, so parts can be reused or changed later without
-      impacting other parts of the program.
-    - They are robust, and can recover or give useful error messages when
-      something unexpected happens.
+
+ - They are straightforward.
+ - They are well documented (especially any assumptions being made).
+ - They are built modularly, so parts can be reused or changed later without
+   impacting other parts of the program.
+ - They are robust, and can recover or give useful error messages when something
+   unexpected happens.
 
 When you sit down and start coding right away, you’re typically thinking “I want
 to do _this_”, so you implement the solution that gets you there the fastest.
@@ -152,4 +154,3 @@ to spend a little extra time up front before you start coding thinking about the
 best way to tackle a problem, what assumptions you are making, and how you might
 plan for the future, in order to save yourself a lot of time and trouble down
 the road.
-
