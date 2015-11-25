@@ -99,6 +99,7 @@ prefix the first line with "area: " where the area is a filename or
 identifier for the general area of the code being modified, e.g.
 
  - archive: ustar header checksum is computed unsigned
+
  - git-cherry-pick.txt: clarify the use of revision range notation
 
 If in doubt which identifier to use, run "git log --no-merges" on the
@@ -136,9 +137,12 @@ category.
 Typically, good solutions have the following characteristics:
 
  - They are straightforward.
+
  - They are well documented (especially any assumptions being made).
+
  - They are built modularly, so parts can be reused or changed later without
    impacting other parts of the program.
+
  - They are robust, and can recover or give useful error messages when something
    unexpected happens.
 
