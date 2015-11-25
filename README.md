@@ -71,8 +71,7 @@ feature does not trigger when it shouldn't.  Also make sure that the
 test suite passes after your commit.  Do not forget to update the
 documentation to describe the updated behaviour.
 
-Speaking of the documentation, it is currently a liberal mixture of US
-and UK English norms for spelling and grammar, which is somewhat
+Speaking of the documentation, it is currently use of US English norms for spelling and grammar, which is somewhat
 unfortunate.  A huge patch that touches the files all over the place
 only to correct the inconsistency is not welcome, though.  Potential
 clashes with other changes that can result from such a patch are not
@@ -120,3 +119,36 @@ to do frotz", as if you are giving orders to the codebase to change
 its behaviour.  Try to make sure your explanation can be understood
 without external resources. Instead of giving a URL to a mailing list
 archive, summarize the relevant points of the discussion.
+
+-------------------------------------------------------------------------
+
+- Determine how are you going to solve the problem
+
+This is the “how” step, where you determine how you are going to solve the
+problem you came up with in step 1. It is also the step that is most neglected
+in software development. The crux of the issue is that there are many ways to
+solve a problem -- however, some of these solutions are good and some of them
+are bad. Too often, a programmer will get an idea, sit down, and immediately
+start coding a solution. This often generates a solution that falls into the bad
+category.
+
+Typically, good solutions have the following characteristics:
+    - They are straightforward.
+    - They are well documented (especially any assumptions being made).
+    - They are built modularly, so parts can be reused or changed later without
+      impacting other parts of the program.
+    - They are robust, and can recover or give useful error messages when
+      something unexpected happens.
+
+When you sit down and start coding right away, you’re typically thinking “I want
+to do _this_”, so you implement the solution that gets you there the fastest.
+This can lead to programs that are fragile, hard to change or extend, or have
+lots of bugs.
+
+Studies have shown that only 20% of a programmer’s time is actually spent
+writing the initial program. The other 80% is spent debugging (fixing errors) or
+maintaining (adding features to) a program. Consequently, it’s worth your time
+to spend a little extra time up front before you start coding thinking about the
+best way to tackle a problem, what assumptions you are making, and how you might
+plan for the future, in order to save yourself a lot of time and trouble down
+the road.
