@@ -162,3 +162,18 @@ plan for the future, in order to save yourself a lot of time and trouble down
 the road.
 
 source: http://www.learncpp.com/cpp-tutorial/04-introduction-to-development/
+
+Comment Guide
+--------------------------------------------------------------------------------
+comment should be written in a way that makes sense to someone who has no idea
+what the code does. It is often the case that a programmer will say “It’s
+obvious what this does! There’s no way I’ll forget about this”. Guess what? It’s
+not obvious, and you will be amazed how quickly you forget. :) You (or someone
+else) will thank you later for writing down the what, how, and why of your code
+in human language. Reading individual lines of code is easy. Understanding what
+goal they are meant to accomplish is not.
+
+To summarize:
+ - At the library, program, or function level, describe what
+ - Inside the library, program, or function, describe how
+ - At the statement level, describe why.
