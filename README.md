@@ -177,3 +177,6 @@ To summarize:
  - At the library, program, or function level, describe what
  - Inside the library, program, or function, describe how
  - At the statement level, describe why.
+
+source: http://www.learncpp.com/cpp-tutorial/12-comments/
+
