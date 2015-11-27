@@ -200,3 +200,5 @@ basic guidelines for writing functions:
  - When a function becomes too long, too complicated, or hard to understand, it
    should be split into multiple sub-functions. This is called refactoring.
 
+source: http://www.learncpp.com/cpp-tutorial/1-4b-why-functions-are-useful-and-how-to-use-them-effectively/
+
