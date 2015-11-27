@@ -180,3 +180,23 @@ To summarize:
 
 source: http://www.learncpp.com/cpp-tutorial/12-comments/
 
+Effectively using functions
+--------------------------------------------------------------------------------
+
+One of the biggest challenges new programmers encounter (besides learning the
+language) is learning when and how to use functions effectively. Here are a few
+basic guidelines for writing functions:
+
+ - Code that appears more than once in a program should generally be made into a
+   function. For example, if we’re reading input from the user multiple times in
+   the same way, that’s a great candidate for a function. If we output something
+   in the same way multiple times, that’s also a great candidate for a function.
+ - Code that has a discrete set of inputs and outputs is a good candidate for a
+   function, particularly if it is complicated. For example, if we have a list
+   of items that we want to sort, the code to do the sorting would make a great
+   function, even if it’s only done once. The input is the unsorted list, and
+   the output is the sorted list.
+ - A function should generally perform one (and only one) task.
+ - When a function becomes too long, too complicated, or hard to understand, it
+   should be split into multiple sub-functions. This is called refactoring.
+
